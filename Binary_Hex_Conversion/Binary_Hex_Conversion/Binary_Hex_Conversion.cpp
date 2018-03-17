@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include <iostream>
 #include <bitset>
+#include <cstdio>
 
 using namespace std;
 
@@ -15,7 +16,9 @@ void printInteger(int n)
 
 void printDouble(double d)
 {
-	cout << "Hex: 0x" << hex << d << endl;
+	//still need binary version
+	cout << "Hex: " << hexfloat << d << endl;
+	printf("Hex: %A\n", d);
 }
 
 int main()
