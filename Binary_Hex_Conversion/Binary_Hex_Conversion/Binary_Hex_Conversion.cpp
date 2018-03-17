@@ -10,7 +10,6 @@ using namespace std;
 void printInteger(int n)
 {
 	cout << "Binary: " << bitset<32>(n) << endl;
-	//printf("%04X", n);
 	cout << "Hex: 0x" << hex << n << endl;
 }
 
